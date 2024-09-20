@@ -1,77 +1,75 @@
 /* Main container */
 main {
-    width: 70%;
-    margin: auto;
-    margin-top: 10%;
-    height: 500px;
-    background-color: antiquewhite;
-    border: 1px solid black;
-    border-radius: 10px;
-    justify-content: space-between;
-    padding: 20px;
+    width: 70%; /* El contenedor principal ocupa el 70% del ancho de la página */
+    margin: auto; /* Centra el contenedor */
+    margin-top: 10%; /* Añade un margen superior del 10% */
+    height: 500px; /* Establece la altura fija del contenedor */
+    background-color: antiquewhite; /* Color de fondo en tono blanco antiguo */
+    border: 1px solid black; /* Borde negro de 1px */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Relleno interno de 20px */
 }
 
 /* Table section */
 #tableSection {
-    width: 60%; /* Adjust width to allocate proper space */
-    display: inline-block;
-    margin-bottom: 300px;
-    
+    width: 60%; /* Ajusta el ancho para asignar espacio adecuado */
+    display: inline-block; /* Para que la tabla y la otra sección se mantengan en la misma línea */
+    margin-bottom: 300px; /* Espacio en la parte inferior de la sección */
 }
 
 #tableSection > table {
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    border-collapse: collapse; /* Collapse borders for table */
-    height: 480px;
+    text-align: center; /* Centra el contenido de las celdas */
+    width: 100%; /* La tabla ocupa el 100% del ancho disponible de la sección */
+    margin: auto; /* Centra la tabla dentro de su contenedor */
+    margin-top: 10px; /* Añade espacio en la parte superior de la tabla */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas para un diseño más limpio */
+    height: 480px; /* Altura total de la tabla */
 }
 
+/* Estilos de las celdas */
 th, td {
-    padding: 10px;
-    border: 1px solid black;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background-color: wheat;
+    padding: 10px; /* Espaciado interno de las celdas */
+    border: 1px solid black; /* Borde negro de 1px para las celdas */
+    background-color: wheat; /* Color de fondo para las celdas */
 }
 
 th, td:hover {
-    background-color: #f0f0f0;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f0f0f0; /* Cambio de color de fondo cuando se pasa el ratón */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y suave cuando se pasa el ratón */
 }
 
+/* Estilo específico para los encabezados de la tabla */
 th {
-    font-weight: bolder;
+    font-weight: bolder; /* Texto en negrita para destacar los encabezados */
 }
 
 /* Stat section (for image/graph) */
 #statSection {
-    width: 35%;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
+    width: 35%; /* Ajusta el ancho para asignar espacio para estadísticas o imágenes */
+    justify-content: center; /* Centra los contenidos horizontalmente */
+    align-items: center; /* Centra los contenidos verticalmente */
+    display: inline-block; /* Alinea la sección en línea con otras secciones */
 }
 
+/* Estilos de la imagen dentro de la sección de estadísticas */
 #statSection > img {
-    max-height: 300px;
-    max-width: 100%;
-    display: inline-block;
-    border-radius: 5px;
-    margin-bottom: 380px;
-    margin-left: 100px;
-    transition: box-shadow 0.3s ease;
-    
+    max-height: 300px; /* Altura máxima de la imagen */
+    max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
+    display: inline-block; /* La imagen se muestra en línea con otros elementos */
+    border-radius: 5px; /* Bordes redondeados de la imagen */
+    margin-bottom: 380px; /* Espaciado inferior */
+    margin-left: 100px; /* Espaciado izquierdo para centrar la imagen */
 }
 
 #statSection > img:hover {
-    background-color: #f0f0f0;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el ratón */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Aplica una sombra suave al pasar el ratón */
 }
 
-#statSection > h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    margin-left: 140px;
-    margin-bottom: 10px;
+/* Estilos del título dentro de la sección de estadísticas */
+#statSection > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente sans-serif */
+    font-weight: bolder; /* Título en negrita para mayor impacto */
+    margin-left: 140px; /* Espaciado izquierdo para centrar el título */
+    margin-bottom: 10px; /* Espaciado inferior */
 }
-
