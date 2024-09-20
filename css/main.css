@@ -1,69 +1,74 @@
-#pageDescription{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
-    border: 1px solid black;
-    margin: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    width: 50%;
-    float: left;
-    border-radius: 10px;
-    box-shadow: 1px 1px black;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+/* Estilo para el contenedor principal del contenido de la página */
+#pageDescription {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente de texto sans-serif */
+    background-color: white; /* Fondo blanco */
+    border: 1px solid black; /* Borde negro de 1px */
+    margin: 10px; /* Espaciado externo de 10px alrededor */
+    margin-top: 10px; /* Asegura un margen superior de 10px */
+    padding: 5px; /* Espaciado interno de 5px dentro del contenedor */
+    width: 50%; /* Ancho del 50% del contenedor padre */
+    float: left; /* Hace que el elemento flote a la izquierda */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    box-shadow: 1px 1px black; /* Sombra pequeña para darle relieve */
 }
 
+/* Estilo cuando se pasa el cursor sobre el contenedor #pageDescription */
 #pageDescription:hover {
-    background-color: #f0f0f0; /* Cambio de fondo al pasar el cursor */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y suave */
+    background-color: #f0f0f0; /* Cambio del color de fondo a gris claro */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y difusa */
 }
 
-#pageDescription > p{
-    margin: 40px;
+/* Estilo para los párrafos dentro de #pageDescription */
+#pageDescription > p {
+    margin: 40px; /* Espaciado alrededor de los párrafos */
 }
 
-body{
-    background-image: url(img/background.jpg);
+/* Fondo de la página usando una imagen */
+body {
+    background-image: url(/img/background.jpg); /* Imagen de fondo */
 }
 
-#promoImages{
-    float: left;
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 10px;
-    margin: 2px;
-    margin-top: 10px;
-    padding: 5px;
-    margin-left: 490px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+/* Estilo para el contenedor de imágenes promocionales */
+#promoImages {
+    float: left; /* Hace que el contenedor flote a la izquierda */
+    border: 1px solid black; /* Borde negro */
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 2px; /* Margen alrededor */
+    margin-top: 10px; /* Margen superior de 10px */
+    padding: 5px; /* Espaciado interno de 5px */
+    margin-left: 490px; /* Separa el contenedor a la izquierda para alinearlo visualmente */
 }
 
+/* Estilo cuando se pasa el cursor sobre el contenedor #promoImages */
 #promoImages:hover {
-    background-color: #f0f0f0; /* Cambio de fondo al pasar el cursor */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y suave */
+    background-color: #f0f0f0; /* Cambio de fondo a gris claro al hacer hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y difusa */
 }
 
-#promoImages > img{
-    width: 400px;
-    margin: auto;
-    height: 242px;
-    display: block;
+/* Estilo para las imágenes dentro de #promoImages */
+#promoImages > img {
+    width: 400px; /* Ancho de la imagen */
+    margin: auto; /* Centra la imagen */
+    height: 242px; /* Altura de la imagen */
+    display: block; /* Hacer que la imagen se comporte como bloque, alineada en el contenedor */
 }
 
 /* Estilos para la lista principal */
 ul {
     list-style-type: square; /* Estilo de viñeta cuadrada */
-    margin: 20px 0;
-    padding-left: 20px;
-    font-size: 16px;
+    margin: 20px 0; /* Margen vertical de 20px */
+    padding-left: 20px; /* Sangría interna para alinear los elementos */
+    font-size: 16px; /* Tamaño de la fuente de 16px */
 }
 
 /* Estilos para las sublistas */
 ul ul {
-    list-style-type: circle; /* Viñeta circular para las sublistas */
-    padding-left: 20px; /* Aumentar sangría de las sublistas */
+    list-style-type: circle; /* Estilo de viñeta circular para las sublistas */
+    padding-left: 20px; /* Sangría adicional para las sublistas */
 }
 
-/* Estilo de los elementos dentro de la lista */
+/* Estilo para los elementos individuales de la lista (<li>) */
 li {
-    margin-bottom: 10px; /* Espacio entre cada elemento */
+    margin-bottom: 10px; /* Espacio inferior de 10px entre cada elemento */
 }
