@@ -1,0 +1,44 @@
+header {
+    background-color: #faebd7;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+a {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    color: white;
+    
+}
+
+       
+
+nav > :nth-child(2){
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+nav > :nth-child(1){
+    background-color: #f08080;
+}
+
+nav > :nth-child(3){
+    background-color: #f08080;
+}
+#ongLogo{
+    height: 100px;
+    width: 100px;
+}
+
+#ongLogo > img{
+    height: 100px;
+    width: 100x;
+}

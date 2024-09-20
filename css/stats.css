@@ -1,0 +1,77 @@
+/* Main container */
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    height: 500px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Table section */
+#tableSection {
+    width: 60%; /* Adjust width to allocate proper space */
+    display: inline-block;
+    margin-bottom: 300px;
+    
+}
+
+#tableSection > table {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-collapse: collapse; /* Collapse borders for table */
+    height: 480px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: wheat;
+}
+
+th, td:hover {
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+th {
+    font-weight: bolder;
+}
+
+/* Stat section (for image/graph) */
+#statSection {
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+#statSection > img {
+    max-height: 300px;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 380px;
+    margin-left: 100px;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+#statSection > img:hover {
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#statSection > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+

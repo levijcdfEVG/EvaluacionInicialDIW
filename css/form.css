@@ -1,0 +1,37 @@
+main{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    padding: 50px;
+}
+
+main > fieldset{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+main > h1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+fieldset > input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submitButton{
+    background-color: tomato;
+}
