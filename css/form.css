@@ -1,37 +1,42 @@
-main{
-    width: 50%;
-    margin: auto;
-    background-color: white;
-    margin-top: 200px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 1px 1px black;
-    padding: 50px;
+/* Estilo principal para el elemento <main> */
+main {
+    width: 50%; /* El ancho de la sección <main> ocupa el 50% del contenedor principal */
+    margin: auto; /* Centra el <main> horizontalmente */
+    background-color: white; /* Fondo blanco para el contenido */
+    margin-top: 200px; /* Separación desde la parte superior de la página */
+    border: 1px solid black; /* Borde negro de 1px alrededor del <main> */
+    border-radius: 10px; /* Bordes redondeados con un radio de 10px */
+    box-shadow: 1px 1px black; /* Sombra ligera de 1px en ambas direcciones para dar profundidad */
+    padding: 50px; /* Espacio interno (relleno) de 50px alrededor del contenido dentro de <main> */
 }
 
-main > fieldset{
-    text-align: center;
-    width: 50%;
-    margin: auto;
+/* Estilo para <fieldset> dentro del <main> */
+main > fieldset {
+    text-align: center; /* Alinea el contenido del <fieldset> al centro */
+    width: 50%; /* Ancho del <fieldset> al 50% de su contenedor padre */
+    margin: auto; /* Centra el <fieldset> horizontalmente dentro del <main> */
 }
 
-main > h1{
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* Estilo para el título <h1> dentro del <main> */
+main > h1 {
+    text-align: center; /* Alinea el texto del título en el centro */
+    padding: 10px; /* Espacio interno de 10px alrededor del contenido del <h1> */
+    margin-bottom: 10px; /* Espacio debajo del título antes de otros elementos */
+    font-size: xx-large; /* Tamaño de la fuente extragrande para el título */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Fuentes preferidas, si están disponibles en el sistema */
 }
 
-fieldset > input{
-    display: block;
-    width: 50%;
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+/* Estilo para los <input> dentro del <fieldset> */
+fieldset > input {
+    display: block; /* Hace que cada <input> se muestre como un bloque independiente, en su propia línea */
+    width: 50%; /* El ancho de los campos de entrada es el 50% del contenedor padre (<fieldset>) */
+    margin: auto; /* Centra los campos de entrada horizontalmente */
+    text-align: center; /* Alinea el texto dentro del campo de entrada en el centro */
+    margin-top: 10px; /* Espacio superior de 10px antes de cada <input> */
+    margin-bottom: 10px; /* Espacio inferior de 10px después de cada <input> */
 }
 
-#submitButton{
-    background-color: tomato;
+/* Estilo específico para el botón con ID "submitButton" */
+#submitButton {
+    background-color: tomato; /* Color de fondo del botón de envío en tono rojo tomate */
 }
