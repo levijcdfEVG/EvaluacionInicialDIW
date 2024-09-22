@@ -2,7 +2,7 @@
 main {
     width: 50%; /* El ancho de la sección <main> ocupa el 50% del contenedor principal */
     margin: auto; /* Centra el <main> horizontalmente */
-    background-color: white; /* Fondo blanco para el contenido */
+    background-color: antiquewhite; /* Fondo crema para el contenido */
     margin-top: 200px; /* Separación desde la parte superior de la página */
     border: 1px solid black; /* Borde negro de 1px alrededor del <main> */
     border-radius: 10px; /* Bordes redondeados con un radio de 10px */
