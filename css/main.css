@@ -25,7 +25,7 @@
 
 /* Fondo de la página usando una imagen */
 body {
-    background-image: url(/img/background.jpg); /* Imagen de fondo */
+    background-image: url(../img/background.jpg); /* Imagen de fondo */
 }
 
 /* Estilo para el contenedor de imágenes promocionales */
