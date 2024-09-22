@@ -3,18 +3,42 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fuente de texto sans-serif */
     background-color: white; /* Fondo blanco */
     border: 1px solid black; /* Borde negro de 1px */
-    margin: 10px; /* Espaciado externo de 10px alrededor */
-    margin-top: 10px; /* Asegura un margen superior de 10px */
-    padding: 5px; /* Espaciado interno de 5px dentro del contenedor */
-    width: 50%; /* Ancho del 50% del contenedor padre */
-    float: left; /* Hace que el elemento flote a la izquierda */
+    margin: 10px; /* Margen alrededor */
+    padding: 5px; /* Espaciado interno de 5px */
+    width: 90%; /* Ancho del 48% del contenedor padre */
+    float: left; /* Flota a la izquierda */
     border-radius: 10px; /* Bordes redondeados de 10px */
     box-shadow: 1px 1px black; /* Sombra pequeña para darle relieve */
+}
+
+/* Estilo para el contenedor de imágenes promocionales */
+#promoImages {
+    border: 1px solid black; /* Borde negro */
+    background-color: white; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px; /* Margen alrededor */
+    padding: 5px; /* Espaciado interno de 5px */
+    width: 405px; /* Ancho del contenedor 5px mayor que las imágenes */
+    float: left; /* Flota a la izquierda */
+}
+
+/* Estilo para las imágenes dentro de #promoImages */
+#promoImages > img {
+    width: 400px; /* Ancho de la imagen */
+    height: 242px; /* Altura de la imagen */
+    display: block; /* Hacer que la imagen se comporte como bloque */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
 }
 
 /* Estilo cuando se pasa el cursor sobre el contenedor #pageDescription */
 #pageDescription:hover {
     background-color: #f0f0f0; /* Cambio del color de fondo a gris claro */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y difusa */
+}
+
+/* Estilo cuando se pasa el cursor sobre el contenedor #promoImages */
+#promoImages:hover {
+    background-color: #f0f0f0; /* Cambio de fondo a gris claro al hacer hover */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y difusa */
 }
 
@@ -25,33 +49,7 @@
 
 /* Fondo de la página usando una imagen */
 body {
-   background-image: url("../img/background.jpg"); /* Imagen de fondo */
-}
-
-/* Estilo para el contenedor de imágenes promocionales */
-#promoImages {
-    float: left; /* Hace que el contenedor flote a la izquierda */
-    border: 1px solid black; /* Borde negro */
-    background-color: white; /* Fondo blanco */
-    border-radius: 10px; /* Bordes redondeados */
-    margin: 2px; /* Margen alrededor */
-    margin-top: 10px; /* Margen superior de 10px */
-    padding: 5px; /* Espaciado interno de 5px */
-    margin-left: 490px; /* Separa el contenedor a la izquierda para alinearlo visualmente */
-}
-
-/* Estilo cuando se pasa el cursor sobre el contenedor #promoImages */
-#promoImages:hover {
-    background-color: #f0f0f0; /* Cambio de fondo a gris claro al hacer hover */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra más grande y difusa */
-}
-
-/* Estilo para las imágenes dentro de #promoImages */
-#promoImages > img {
-    width: 400px; /* Ancho de la imagen */
-    margin: auto; /* Centra la imagen */
-    height: 242px; /* Altura de la imagen */
-    display: block; /* Hacer que la imagen se comporte como bloque, alineada en el contenedor */
+    background-image: url("../img/background.jpg"); /* Imagen de fondo */
 }
 
 /* Estilos para la lista principal */
@@ -71,4 +69,10 @@ ul ul {
 /* Estilo para los elementos individuales de la lista (<li>) */
 li {
     margin-bottom: 10px; /* Espacio inferior de 10px entre cada elemento */
+}
+
+#mainPage{
+    width: 50%;
+    margin: auto;
+    margin-left: 15%;
 }
