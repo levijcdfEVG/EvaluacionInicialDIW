@@ -1,10 +1,8 @@
 /* Estilo principal para el elemento <main> */
 main {
     width: 50%; /* El ancho de la sección <main> ocupa el 50% del contenedor principal */
-    margin: auto; /* Centra el <main> horizontalmente */
+    margin: 50px auto; /* Centra el <main> horizontalmente y ajusta la separación desde la parte superior de la página */
     background-color: antiquewhite; /* Fondo crema para el contenido */
-    margin-top: 200px; /* Separación desde la parte superior de la página */
-    margin-bottom: 200px; /* Separación desde la parte inferior de la página */
     border: 1px solid black; /* Borde negro de 1px alrededor del <main> */
     border-radius: 10px; /* Bordes redondeados con un radio de 10px */
     box-shadow: 1px 1px black; /* Sombra ligera de 1px en ambas direcciones para dar profundidad */
