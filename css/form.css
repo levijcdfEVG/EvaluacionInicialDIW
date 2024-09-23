@@ -27,8 +27,8 @@ main > h1 {
 }
 
 /* Estilo para los <input> dentro del <fieldset> */
-fieldset > input {
-    display: block; /* Hace que cada <input> se muestre como un bloque independiente, en su propia línea */
+fieldset > input, fieldset > select {
+    display: block; /* Hace que cada <input> y <select> se muestren como un bloque independiente, en su propia línea */
     width: 50%; /* El ancho de los campos de entrada es el 50% del contenedor padre (<fieldset>) */
     margin: auto; /* Centra los campos de entrada horizontalmente */
     text-align: center; /* Alinea el texto dentro del campo de entrada en el centro */
